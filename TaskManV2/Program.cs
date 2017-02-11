@@ -10,6 +10,26 @@ namespace TaskManV2
     {
         static void Main(string[] args)
         {
+            Staff Staff1  = new Staff();
+            Staff1.Name = "Carl";
         }
     }
+
+
+    class Staff
+    {
+        public string Name { get; set; }
+        int StaffID { get; set; }
+        int Role { get; set; }
+        
+        
+    }
+
+    class Task
+    { }
+
+    
+
+
+
 }
